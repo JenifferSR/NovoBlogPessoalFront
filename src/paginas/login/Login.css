@@ -1,0 +1,23 @@
+
+.textos{
+    font-weight: bold!important;
+    color: #354D54 !important;
+}
+.botao{
+    border-color: white;
+    background-color: #20C2A8;
+    color: #ffffff;
+    font-weight: bold;
+}
+.img{
+   
+        background-image: url(https://img.freepik.com/free-vector/team-concept-illustration_114360-688.jpg?w=740&t=st=1684982048~exp=1684982648~hmac=18cac4f9c0a08843e9c2382a08a39b1c9f341b1ea593905052c2b5a8b83dd9a5) !important;
+        background-repeat: no-repeat !important;
+        width: 800px !important;
+        min-height: 600px !important;
+        background-size: cover !important;
+        background-position: center !important;
+}
+.text-decorator-none{
+    text-decoration: none;
+}
