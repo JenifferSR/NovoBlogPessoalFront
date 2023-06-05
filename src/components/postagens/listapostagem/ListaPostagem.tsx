@@ -14,7 +14,7 @@ import { addToken } from '../../../store/token/Actions';
 import { UserState } from '../../../store/token/Reducer';
 import './ListaPostagem.css';
 
-function Listapost() {
+function Listapostagem() {
   
   let navigate = useNavigate();
 
@@ -113,4 +113,4 @@ function Listapost() {
   );
 }
 
-export default Listapost;
+export default Listapostagem;
