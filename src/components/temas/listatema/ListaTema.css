@@ -1,0 +1,39 @@
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 9px solid;
+    border-color: #dbdcef;
+  
+    animation: spinner-d3wgkg 1s infinite linear;
+}
+
+@keyframes spinner-d3wgkg {
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.text-decorator-none{
+    text-decoration: none;
+}
+.botaoadd{
+    font-size: xx-large !important;
+    color: #96BB7C !important;
+    position: fixed !important;
+    Width :75px !important;
+    Height : 89px !important;
+    right: 5px!important;
+    bottom: 5px!important;
+   }
+.botaoatcan{
+    cursor: pointer;
+    color: #2A7CC7;
+    }
+    .cx{
+        border-radius: 45px !important;
+        margin: 15px;
+        right: 50%;
+        margin-right: 70%;
+    }

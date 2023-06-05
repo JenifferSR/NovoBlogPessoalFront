@@ -1,22 +1,18 @@
-.titulo{
-    color: #354D54 !important;
-    font-weight: bold !important;
-    text-align: center;
-}
 .caixa{
-    background-color: #EFF8ED;
+    background-color: #FFFFFF;
 }
+
+.titulo{
+   color: #395A66 !important;
+   font-weight: bold !important;
+}
+
 .botao{
-    border-color: white !important; 
-    background-color: #20C2A8 !important;
-    color: #ffffff !important;
+    border-color: #395A66 !important;
+    background-color: #EFF8ED !important;
+    color: #395A66 !important;
 }
+
 .postagens{
-    background-color: #EFF8ED;
-}
-.img{
-    width:500px;
-    height:500px;
-    display: block;
-    margin: 0 auto;
+    background-color: #FFFFFF;
 }

@@ -1,0 +1,25 @@
+.imagem2{
+    background-image: url("./src/assets/image/Blog Post.jpg")!important;
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.textos2{
+    font-weight: bold !important;
+}
+
+.btnCancelar{
+    margin-right: 20px !important;
+    border-color: #395A66 !important;
+    background-color: #00B398!important;
+    color: #395A66 !important;
+}
+.btnCadastrar{
+    margin-right: 20px !important;
+    border-color: #395A66 !important;
+    background-color: #EFF8ED!important;
+    color: #395A66 !important;
+}

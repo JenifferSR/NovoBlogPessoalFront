@@ -1,6 +1,8 @@
-import React from 'react';
-import {Typography, Grid, Button} from '@material-ui/core';
-import {Box} from '@mui/material';
+import { Button, Grid, Typography } from '@material-ui/core';
+import { Box } from '@mui/material';
+import { Link } from 'react-router-dom';
+import ModalPostagem from '../../components/postagens/modalPostagem/ModalPostagem';
+import TabPostagem from '../../components/postagens/tabpostagem/TabPostagem';
 import './Home.css';
 
 function Home() {
@@ -14,14 +16,18 @@ function Home() {
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
+                            <ModalPostagem />
                         </Box>
-                        <Button variant="outlined" className='botao'>Ver Postagens</Button>
+                        <Link to='/postagens'>
+                            <Button variant="outlined" className='botao'>Ver Postagens</Button>
+                        </Link>
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
-                    <img src="https://img.freepik.com/free-vector/team-concept-illustration_114360-688.jpg?w=740&t=st=1684982048~exp=1684982648~hmac=18cac4f9c0a08843e9c2382a08a39b1c9f341b1ea593905052c2b5a8b83dd9a5" alt="" className='img'/>
+                    <img src="./src/assets/image/Blog Post.jpg"  alt="" width="600px" height="600px" />
                 </Grid>
                 <Grid xs={12} className='postagens'>
+                <TabPostagem />
                 </Grid>
             </Grid>
         </>

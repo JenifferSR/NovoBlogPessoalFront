@@ -1,19 +1,18 @@
 .box1{
-    background-color: #B8CAD4 !important; 
-    height: 100px !important;
+    background-color: #B8CAD4;
+    height: 120px;
 }
+
 .box2{
-    background-color: #B8CAD4 !important;
-    height: 60px !important;
+    background-color: #B8CAD4;
+    height: 60px;
 }
-.red1{
-    font-size: 50px !important;
-    color: #EFF8ED !important;
-}
-.red2{
+
+.redes{
     font-size: 60px !important;
-    color: #EFF8ED !important;
+    color: white;
 }
-.texto{
-    color: #EFF8ED !important;
+
+.textos{
+   color: white;
 }
