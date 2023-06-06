@@ -50,7 +50,7 @@ function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={6} >
-                    <img src="https://imgur.com/0bOZ9Ko"  alt="" width="600px" height="600px" />
+                    <img src="https://br.pinterest.com/pin/524599056608118660"  alt="" width="600px" height="600px" />
                 </Grid>
                 <Grid xs={12} className='postagens'>
                 <TabPostagem />
