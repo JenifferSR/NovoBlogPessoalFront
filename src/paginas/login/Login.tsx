@@ -8,13 +8,14 @@ import UserLogin from '../../models/UserLogin';
 import { login } from '../../services/Service';
 import { addId, addToken } from '../../store/token/Actions';
 import './Login.css';
+import useLocalStorage from 'react-use-localstorage';
 
 // use pode ser lido HOok
 function Login() {
    
     let navigate = useNavigate();
 
-    const dispatch = useDispatch();
+    const [token, setToken] = useLocalStorage('token');
 
     const [userLogin, setUserLogin] = useState<UserLogin>({
 
