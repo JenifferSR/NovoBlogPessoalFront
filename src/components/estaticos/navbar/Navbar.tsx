@@ -40,7 +40,7 @@ function Navbar() {
                 <Toolbar variant="dense" style={{ backgroundColor: "#B8CAD4", height: "70px" }}>
                 <Grid container justifyContent={'flex-start'}>
                             <Box >
-                                <img src="./src/assets/image/icon.png" alt="icone" width="70px" height="70px" />
+                                <img src="https://imgur.com/yyvxYkl" alt="icone" width="70px" height="70px" />
                             </Box>
                         </Grid>
                         <Grid container justifyContent={'space-between'}>
