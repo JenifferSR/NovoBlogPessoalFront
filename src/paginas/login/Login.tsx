@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import UserLogin from '../../models/UserLogin';
 import { login } from '../../services/Service';
-import { addId, addToken } from '../../store/token/Actions';
+import { Action, addId, addToken } from '../../store/token/Actions';
 import './Login.css';
 import useLocalStorage from 'react-use-localstorage';
 
@@ -119,3 +119,7 @@ function Login() {
 }
 
 export default Login;
+function dispatch(arg0: Action) {
+    throw new Error('Function not implemented.');
+}
+
