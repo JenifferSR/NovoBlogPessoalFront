@@ -15,7 +15,7 @@ function Login() {
    
     let navigate = useNavigate();
 
-    const [token, setToken] = useLocalStorage('token');
+    const dispatch = useDispatch();
 
     const [userLogin, setUserLogin] = useState<UserLogin>({
 
